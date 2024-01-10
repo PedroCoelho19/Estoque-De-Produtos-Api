@@ -1,5 +1,9 @@
-import userRepositorys from "./user/user.repositorys";
+import userRepositorys from "./user/user.repository";
+import authRepository from "./auth/auth.repository";
+import productRepository from './product/product.repository'
 
 export{
-    userRepositorys
+    userRepositorys,
+    authRepository,
+    productRepository
 }

@@ -3,3 +3,9 @@ export interface User{
     password: string;
     email: string;
 }
+
+export interface Product{
+    name: string
+    amount: number
+    price: number
+}
