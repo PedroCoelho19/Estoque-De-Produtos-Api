@@ -6,6 +6,8 @@ export default class ProductRoutes {
   }
   
   private initDefineRoutes(router){
+    router.get('/product/list', productController.list)
     router.post('/product/create', productController.create)
+    router.patch('/product/update/:productId', productController.update)
   }
 }
